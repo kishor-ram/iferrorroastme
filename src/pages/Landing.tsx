@@ -89,14 +89,22 @@ const Landing = () => {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t border-border mt-20">
-        <div className="container mx-auto px-6 py-8">
-          <p className="text-center text-muted-foreground">
-            Made with passion by Kishor
-          </p>
-        </div>
-      </footer>
+     {/* Footer */}
+<footer className="border-t border-border mt-20">
+  <div className="container mx-auto px-6 py-8">
+    <p className="text-center text-muted-foreground">
+      Crafted with <span className="text-red-500">❤️</span> by{" "}
+      <a
+        href="https://www.instagram.com/kishorx_.r/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="font-medium text-primary hover:underline"
+      >
+        Kishor R
+      </a>
+    </p>
+  </div>
+</footer>
     </div>
   );
 };
